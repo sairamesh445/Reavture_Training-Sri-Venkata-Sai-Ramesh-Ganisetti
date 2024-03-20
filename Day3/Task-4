@@ -1,0 +1,23 @@
+//Caluclator Programme
+var inh = prompt("Enter Operator + or - or * : ");
+
+switch(inh){
+    case '+':
+    let a = parseInt(prompt("Enter A Value: "));
+    let b = parseInt(prompt("Enter B Value: "));
+    let sum = (a, b) => a + b;
+    console.log(sum(a,b));
+    break;
+    case '-':
+    let c = parseInt(prompt("Enter A Value : "));
+    let d = parseInt(prompt("Enter B Value : "));
+    let sub = (c, d) => c - d;
+    console.log(sub(c,d));
+    break;
+    case '*':
+    let e = parseInt(prompt("Enter A Value : "));
+    let f = parseInt(prompt("Enter B Value : "));
+    let mul = (e, f) => e * f;
+    console.log(mul(e,f));
+    break;
+}

@@ -1,6 +1,4 @@
-//Caluclator Programme
 var inh = prompt("Enter Operator + or - or * : ");
-
 switch(inh){
     case '+':
     let a = parseInt(prompt("Enter A Value: "));

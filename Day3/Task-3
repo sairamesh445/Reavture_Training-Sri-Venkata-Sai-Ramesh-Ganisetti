@@ -1,16 +1,15 @@
-//Function Practice
 function abc(a,b,c){
     return a+b+c;
 }
 console.log(abc(1,2,3));
 
-//Anonymus Function
+
 let a = function (a,b){
     return a+b;
 }
 console.log(a(1,2));
 
 
-//Arrow Function
+
 let abcc = (a, b) => a * b;
 console.log(abcc(1,2));

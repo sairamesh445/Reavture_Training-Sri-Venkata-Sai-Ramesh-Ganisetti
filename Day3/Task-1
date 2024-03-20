@@ -1,0 +1,16 @@
+//Prime Numbers Within the Range
+let n;
+function prime(n){
+    for(let number=2;number<=n;number++){
+        let count=0;
+        for(var i=1;i<=number;i++){
+            if(number%i==0){
+                count++;
+            }
+        }
+        if(count<=2&&count!=0){
+            console.log(number);
+        }
+    }
+}
+prime(15);

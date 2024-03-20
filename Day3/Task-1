@@ -1,4 +1,3 @@
-//Prime Numbers Within the Range
 let n;
 function prime(n){
     for(let number=2;number<=n;number++){

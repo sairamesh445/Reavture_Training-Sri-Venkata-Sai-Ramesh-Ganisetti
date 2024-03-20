@@ -6,3 +6,25 @@ function s(...arr){
     return sum;
 }
 console.log(s(1,2,3,4,5));
+
+
+
+//Student Grade
+Marks=parseInt(prompt("Enter Marks: "));
+if(Marks<=100){
+    if(Marks>=90){
+        console.log("A Grade");
+    }
+    else if(Marks>=80 && Marks<90){
+        console.log("B Grade");
+    }
+    else if(Marks>=70 && Marks<80){
+        console.log("B Grade");
+    }
+    else if(Marks>=60 && Marks<70){
+        console.log("B Grade");
+    }
+    else if(Marks<60) {
+            console.log("OOPS!, You are on the way to success");
+    }
+}

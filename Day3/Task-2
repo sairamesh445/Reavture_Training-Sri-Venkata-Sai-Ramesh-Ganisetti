@@ -1,4 +1,3 @@
-//To check weather prime number or not
 let n;
 function prime(n){
     let flag=1;

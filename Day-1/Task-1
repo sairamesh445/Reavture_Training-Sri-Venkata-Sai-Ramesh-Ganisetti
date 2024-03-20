@@ -1,0 +1,313 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            margin: 0px;
+            background-color: black;
+        }
+        .navbar{
+            background-color: rgb(255, 157, 0);
+           
+         
+        }
+        .rnavbar{
+            margin: 0px;
+            padding-right: 20px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .lnavbar{
+            padding-left: 30px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .r{
+            padding: 10px;
+            color: rgb(0, 0, 0);
+        }
+        .about{
+            text-align: right;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: rgb(255, 255, 255);
+            position: relative;
+            right: 50px;
+            font-weight: 25px;
+            top: 400px;
+            font-size: 25px;
+        }
+        .image{
+            position: relative;
+            left: 1000px;
+            bottom: 300px;
+        }
+        .head{
+            color: orange;
+            font-family: 'Roboto', sans-serif;
+            padding-left: 100px;
+            font-weight: 10;
+        }
+        .name{
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            font-size: 25px;
+            padding-left: 100px;
+        }
+        .box{
+            border: 3px orange double;
+        }
+        .aboutt{
+            color: orange;
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+        }
+        .matter_about_revature{
+            color: white;
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            border: 2px dotted orange;
+            margin: 40px;
+            padding: 40px;
+        }
+        .dot{
+            border: solid orange 2px;
+            margin: 10px;
+            margin: 20px;
+        }
+        .src{
+            color: orange;
+            font-family: 'Roboto', sans-serif;
+        }
+        .revature{
+            height: 50px;
+            position: relative;
+            bottom: 400px;
+        }
+        .logo{
+            width: 40px;
+            height: 40px;
+        }
+        .media{
+            display: flex;
+            flex-direction: row;
+            margin-left: 660px;
+        }
+        .logo{
+            padding-right: 70px;
+        }
+        .rt{
+            text-align: center;
+        }
+        .t{
+            color: white;
+            padding: 100px;
+            position: relative;
+            left: 450px;
+        }
+        table ,th, td{
+            border: solid 2px orange;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="lnavbar">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Revature-768x768.webp" style="width: 200px;">
+        </div>
+            <div class="rnavbar">
+                <a class="r" href="#home"><button type="button" class="btn btn-outline-light">Home</button></a>
+                <a class="r" href="#ab"><button type="button" class="btn btn-outline-light">About</button></a>
+                <a class="r" href="#wwr"><button type="button" class="btn btn-outline-light">Who We Are?</button></a>
+                <a class="r" href="#ot"><button type="button" class="btn btn-outline-light">Our Team</button></a>
+                <a class="r" href="#fu"><button type="button" class="btn btn-outline-light">Follow Us</button></a>
+            </div>
+        </div>
+    <div>
+   
+        <div class="box" id="home">
+           
+            <div class="about">
+                <p>Ashwin, Chief Executive Officer and Founder of Revature <br> the key for the inception and execution of Revature's business model <br>including design and development of Training, <br>RevaturePro, Curriculum and core operations.</p>
+            </div>
+            <div class="det">
+                <h1 class="head"><b><u>Founder&Chief Executive Officer</u></b></h1>
+                <p class="name">Srikanth Ramachandran Ashwin Bharath,<br>In November 17, 2003</p>
+            </div>
+            <div class="image"><img src="https://res.cloudinary.com/dns2f00mf/image/upload/v1702883961/Fr-ag9rXgAElC1w-modified_esrzb9.png" alt="Image" style="width: 390px;"></div>
+            <div class="revature">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Revature-768x768.webp">
+            </div>
+        </div>
+        <div class="aboutt">
+            <h1><u>ABOUT REVATURE</u></h1>
+        </div>
+        <div class="dot" id="ab">
+            <div class="matter_about_revature">
+                <p>
+                    Revature combines talent discovery, specialized training and transformational strategies to deliver software engineering teams and up-skill your workforce.<br>
+        
+                    Revature is a leading talent enablement organization and the talent development partner of choice for Fortune 500 companies, government organizations and top systems integrators. Since its founding, Revature has trained over 12,000 software engineers in the United States & Canada in 55 technical disciplines, recruited talent from 700 universities, and deployed them to blue chip companies throughout these regions.<br>
+        
+                    Those who complete the Revature program work on innovative, challenging, and rewarding software development projects with Revature’s clients before being able to convert permanently and continue their rewarding technology career.
+                </p>
+            </div>
+        </div>
+        <div class="aboutt" id="wwr">
+            <h1><u>WHO WE ARE</u></h1>
+        </div>
+        <div class="dot" id="ab">
+            <div class="matter_about_revature">
+                <p>
+                    We are fueling the future of work by providing diverse technology talent at scale, bridging the skill gap while equalizing opportunity for all. At Revature we believe that the technology skills gap fundamentally exists as a result of an opportunity gap. That talent is created equal, but opportunity is not. Everything we do is about closing the opportunity gap. We develop opportunities for those that have the aptitude and attitude to be successful Software Engineers – and to provide them with the right skills they need to be enterprise ready.
+                </p>
+            </div>
+        </div>
+        <div class="sources" >
+            <h1 class="aboutt" id="ot"><u>OUR TEAM</u></u></h1>
+        </div>
+        <table class="t">
+            <tr>
+                <th>S.No</th>
+                <th>Name</th>
+                <th>Department</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Ashwin Bharath</td>
+                <td>Chief Executive Officer</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Robert Gasser</td>
+                <td>Sales</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Jeff DiStanlo</td>
+                <td>Chief Financial Officer</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Carol Baxter</td>
+                <td>VP, Head of HR</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Sudeep Sarkar</td>
+                <td>EVP, Growth Strategy and Transformation</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Saravanan Regunath</td>
+                <td>SVP, Training</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Senthil Kumar</td>
+                <td>SVP, India Operations</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Bala Kalyan</td>
+                <td>SVP, Business Operations</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Ophilia Ajaykumar</td>
+                <td>VP, Talent Acquisition, India</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Adrienne Bouleris</td>
+                <td>VP, Head of Legal</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>April Garvey</td>
+                <td>SVP, Marketing</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>John Dow</td>
+                <td>SVP, Sales</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Gaurav Gautam</td>
+                <td>SVP, Strategic Accounts</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Anurag Gupta</td>
+                <td>SVP, Product Partnerships</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>Balu Sudhakar</td>
+                <td>SVP, Customer Success</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>Srini Venkatraman</td>
+                <td>SVP, Consulting BU leader</td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>Michael Minton</td>
+                <td>SVP, Business Operations</td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>Genean Jones</td>
+                <td>Vice President, Demand Marketing (B2B)</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>Kyle Taylor</td>
+                <td>Sr. Director, Employee Experience</td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>Arun Kumar</td>
+                <td>Director, Corporate IT</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>Rajkumar Chandrasekaran</td>
+                <td>Director, Business Operations</td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td>Mila Lemeshko</td>
+                <td>Director, Financial Planning & Analysis</td>
+            </tr>
+            <tr>
+                <td>23</td>
+                <td>Bryan Fleming</td>
+                <td>Director, Recruitment Operations</td>
+            </tr>
+        </table>
+        <div class="rt">
+            <h1 style="color: orange; font-family: 'Roboto', sans-serif;"><u>CONTACT US</u></h1>
+            <p style="color: rgb(255, 255, 255); font-family: 'Roboto', sans-serif;">New No. 431, Workafella High Street,<br>
+                12th floor, Teynampet,<br>
+                Anna Salai,<br>
+                Chennai 600018
+            </p>
+        </div>
+        <h1 class="aboutt" id="fu"><u>FOLLOW US ON</u></h1>
+        <div class="media">
+            <a href="https://www.linkedin.com/company/revature/" class="logo"><img class="logo" style="height: 50px; width: 110px;" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png"></a>
+            <a href="https://www.instagram.com/revatureindia/" class="logo"><img class="logo" style="height: 50px; width: 110px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png"></a>
+            <a href="https://www.facebook.com/RevatureIndia/" class="logo"><img class="logo"style="height: 50px; width: 110px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png"></a>
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>

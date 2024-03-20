@@ -1,14 +1,3 @@
-function s(...arr){
-    var sum=0;
-    for(let i=0;i<arr.length;i++){
-        sum+=arr[i];
-    }
-    return sum;
-}
-console.log(s(1,2,3,4,5));
-
-
-
 //Student Grade
 Marks=parseInt(prompt("Enter Marks: "));
 if(Marks<=100){

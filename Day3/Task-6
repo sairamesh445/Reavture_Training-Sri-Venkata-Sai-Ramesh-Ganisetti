@@ -1,0 +1,25 @@
+const randomNumber = Math.floor(Math.random() * 100) + 1;
+guessnumber=parseInt(prompt("Enter a Number: "));
+if(guessnumber==randomNumber){
+    console.log("Congratulations!");
+}
+else if(guessnumber<randomNumber){
+    console.log("Your Number is lesser than target number");
+}
+else if(guessnumber>randomNumber){
+    console.log("Your Number is greater than target number");
+}
+while(guessnumber!==randomNumber){
+    if(guessnumber!=randomNumber){
+        guessnumber=parseInt(prompt("Enter a Number: "));
+    }
+    if(guessnumber==randomNumber){
+        console.log("Congratulations!");
+    }
+    else if(guessnumber<randomNumber){
+        console.log("Your Number is lesser than target number");
+    }
+    else if(guessnumber>randomNumber){
+        console.log("Your Number is greater than target number");
+    }
+}

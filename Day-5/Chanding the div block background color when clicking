@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="comehere" style="background-color: green; width: 80px; padding: 10px;"><p>Come Here</p></div>
+    <script>
+        var box = document.getElementById("comehere");
+        box.addEventListener("click",function(){box.style.backgroundColor="red"})
+    </script>
+</body>
+</html>

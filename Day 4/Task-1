@@ -1,0 +1,23 @@
+
+var ob1={
+    name:"Shoes",
+    category:"footware",
+    price:200
+}
+var ob2={
+    name:"Shirt",
+    category:"Clothes",
+    price:800
+}
+
+var ob3={
+    name:"Pant",
+    category:"Clothes",
+    price:500
+}
+var si=[ob1,ob2,ob3];
+const newValue=si.reduce((acc,currentItem)=>{
+    return acc+currentItem.price
+   
+},0);
+console.log(newValue)
